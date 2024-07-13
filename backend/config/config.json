@@ -1,22 +1,22 @@
 {
 	"development": {
 		"username": "admin",
-		"password": "Loadsmobile1234!",
-		"database": "loadsmobile",
+		"password": "Ddlabel1234!",
+		"database": "ddlabel",
 		"host": "database-1.cxgaumyi4rp2.us-east-1.rds.amazonaws.com",
 		"dialect": "mysql"
 	},
 	"test": {
 		"username": "admin",
-		"password": "Loadsmobile1234!",
-		"database": "loadsmobile_test",
+		"password": "Ddlabel1234!",
+		"database": "ddlabel_test",
 		"host": "database-1.cxgaumyi4rp2.us-east-1.rds.amazonaws.com",
 		"dialect": "mysql"
 	},
 	"production": {
 		"username": "admin",
-		"password": "Loadsmobile1234!",
-		"database": "loadsmobile",
+		"password": "Ddlabel1234!",
+		"database": "ddlabel",
 		"host": "database-1.cxgaumyi4rp2.us-east-1.rds.amazonaws.com",
 		"dialect": "mysql"
 	}
