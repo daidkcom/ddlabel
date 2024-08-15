@@ -16,7 +16,7 @@ export type ProfileType = UserModel & { confirmPassword: string };
 type QuickFieldProp = {
   name: keyof ProfileType;
   autoComplete?: string;
-  type?: 'text' | 'password'; 
+  type?: 'text' | 'password';
   required?: boolean;
   onChange?: (e: React.ChangeEvent<HTMLInputElement>) => void;
 };
@@ -75,13 +75,12 @@ const UserForm: React.FC<UserFormProps> = ({ isRegister = false }) => {
   };
 
   const handleAddressChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    setProfile({
-      ...profile,
-      warehouseAddress: {
-        ...profile.warehouseAddress,
-        [e.target.name]: e.target.value,
-      },
-    });
+    const address = {
+      ...profile.warehouseAddress,
+      [e.target.name]: e.target.value,
+    }
+
+    setProfile(prev => ({ ...prev, warehouseAddress: { ...prev.warehouseAddress, ...address } }));
   };
 
   const checkErrors = (): boolean => {
