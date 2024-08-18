@@ -138,7 +138,7 @@ const UserForm: React.FC<UserFormProps> = ({ isRegister = false }) => {
     <Container component="main" maxWidth="md">
       <StyledBox>
         <Typography component="h1" variant="h4">
-          {isRegister ? 'Register' : 'User Profile'}
+          {isRegister ? 'Register User' : 'User Profile'}
         </Typography>
         <MessageAlert message={message} />
 
@@ -175,7 +175,7 @@ const UserForm: React.FC<UserFormProps> = ({ isRegister = false }) => {
             variant="contained"
             sx={{ mt: 3, mb: 2 }}
           >
-            {isRegister ? 'Register' : 'Update Profile'}
+            {isRegister ? 'Register User' : 'Update Profile'}
           </Button>
         </Box>
       </StyledBox>
