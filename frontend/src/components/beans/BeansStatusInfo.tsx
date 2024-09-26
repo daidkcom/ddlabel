@@ -3,7 +3,7 @@ import { Box } from '@mui/material';
 import { tryLoad } from '../../util/errors';
 import { MessageContent } from '../../types';
 import { BeansStatus, PackageModel } from '@ddlabel/shared';
-import MessageAlert from './MessageAlert';
+import MessageAlert from '../share/MessageAlert';
 import BeansAiApi from '../../external/beansApi';
 import DialogCard from '../dialog/DialogCard';
 import { StatusLabel } from '../../util/styled';
