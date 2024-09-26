@@ -93,9 +93,10 @@ export const PackageLabel: React.FC<PackageLabelProps> = (prop) => {
       {/* under barcode spacing */}
       <Box sx={{ height: `${0.7 * factor}in` }}>
         <Typography variant="body2" sx={{ textAlign: 'left', fontSize: `${0.8 * factor}rem` }}>
-          Please return all packages instead of leaving them after finishing the Proof of Delivery (POD).
           <br />
-          Pod check email : monkeyexp100@gmail.com
+          <br />
+          <br />
+          <br />
       </Typography>
       </Box>
       {/* bottom line */}
