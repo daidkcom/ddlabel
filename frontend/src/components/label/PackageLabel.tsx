@@ -55,7 +55,7 @@ export const PackageLabel: React.FC<PackageLabelProps> = (prop) => {
 
           {/* Return to part */}
           <Box sx={{ height: `${1.05 * factor}in`, textAlign: 'left' }}>
-            <MonoTypoSmall factor={factor} variant='body1'>Return to:</MonoTypoSmall>
+            <MonoTypoSmall factor={factor} variant='body1'>Ship from:</MonoTypoSmall>
             <MonoTypoSmall factor={factor} >{pkg.fromAddress.name}</MonoTypoSmall>
             <MonoTypoSmall factor={factor} >{cleanAddress(pkg, 'from', pkg.fromAddress.address1)}</MonoTypoSmall>
             <MonoTypoSmall factor={factor} >{cleanAddress(pkg, 'from', pkg.fromAddress.address2)}</MonoTypoSmall>
