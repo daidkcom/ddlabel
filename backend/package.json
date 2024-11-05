@@ -29,7 +29,7 @@
     "sequelize": "^6.37.3",
     "sequelize-typescript": "^2.1.6",
     "socket.io": "^4.7.5",
-    "@ddlabel/shared": "workspace:*",
+    "@ddlabel/shared": "1.0.0",
     "uuid": "^10.0.0"
   },
   "devDependencies": {
