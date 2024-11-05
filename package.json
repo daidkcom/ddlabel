@@ -7,6 +7,9 @@
     "backend",
     "shared"
   ],
+  "nohoist": [
+    "**/typescript"
+  ],
   "scripts": {
     "prod-frontend": "yarn workspace @ddlabel/frontend prod",
     "prod-backend": "yarn workspace @ddlabel/backend prod",
@@ -22,6 +25,7 @@
     "build": "yarn build-backend && yarn build-frontend && yarn build-shared"
   },
   "devDependencies": {
+    "typescript": "^4.0.0",
     "@types/papaparse": "^5.3.14",
     "concurrently": "^6.0.0",
     "pm2": "^5.4.1"
