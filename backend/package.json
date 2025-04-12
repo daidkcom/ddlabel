@@ -9,6 +9,7 @@
     "build": "tsc"
   },
   "dependencies": {
+    "@ddlabel/shared": "1.0.0",
     "@types/compression": "^1.7.5",
     "@types/json2csv": "^5.0.7",
     "@types/uuid": "^10.0.0",
@@ -29,7 +30,6 @@
     "sequelize": "^6.37.3",
     "sequelize-typescript": "^2.1.6",
     "socket.io": "^4.7.5",
-    "@ddlabel/shared": "1.0.0",
     "uuid": "^10.0.0"
   },
   "devDependencies": {
